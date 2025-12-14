@@ -1,180 +1,52 @@
 'use client';
 
-import { useState } from 'react';
-import { BookDemoForm } from '@/components/forms/BookDemoForm';
-import { JoinWaitlistForm } from '@/components/forms/JoinWaitlistForm';
+import {
+  HeroSection,
+  FeaturesSection,
+  ComparisonSection,
+  InsightsSection,
+  TestimonialsSection,
+  PricingSection,
+  FAQSection,
+  BottomCTASection,
+} from '@/components/sections';
+import { contentData } from '@/lib/content/en';
 
 export default function Home() {
-  const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
-
   return (
     <>
-      <section className="relative px-4 py-20 lg:py-32">
-        <div className="mx-auto max-w-7xl">
-          <div className="text-center space-y-6 lg:space-y-8">
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-[var(--token-text-primary)] tracking-tight">
-              Transform Your Workflow
-            </h1>
-            <p className="text-lg sm:text-xl lg:text-2xl text-[var(--token-text-secondary)] max-w-3xl mx-auto leading-relaxed">
-              Dealism helps teams collaborate seamlessly and achieve their goals with powerful, intuitive tools designed for the modern workplace.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <button
-                onClick={() => setIsDemoModalOpen(true)}
-                className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-[var(--token-primary)] hover:bg-[var(--token-primary-hover)] rounded-full transition-all shadow-lg hover:shadow-xl"
-              >
-                Get beta access
-              </button>
-              <a
-                href="#product"
-                className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-[var(--token-text-primary)] border-2 border-[var(--token-border)] hover:border-[var(--token-text-primary)] rounded-full transition-all"
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="product" className="relative px-4 py-20 lg:py-32 scroll-mt-20">
-        <div className="mx-auto max-w-7xl">
-          <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--token-text-primary)]">
-              Product
-            </h2>
-            <p className="text-lg text-[var(--token-text-secondary)] max-w-2xl mx-auto">
-              Discover the tools that will revolutionize how your team works together.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <div
-                key={item}
-                className="p-8 rounded-2xl bg-[var(--token-surface)] border border-[var(--token-border)] hover:border-[var(--token-primary)] transition-all shadow-[var(--token-shadow-md)] hover:shadow-[var(--token-shadow-lg)]"
-              >
-                <div className="w-12 h-12 rounded-xl bg-[var(--token-primary)]/10 flex items-center justify-center mb-4">
-                  <div className="w-6 h-6 rounded-lg bg-[var(--token-primary)]" />
-                </div>
-                <h3 className="text-xl font-semibold text-[var(--token-text-primary)] mb-2">
-                  Product Feature {item}
-                </h3>
-                <p className="text-[var(--token-text-secondary)]">
-                  Description of product feature {item} goes here.
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="features" className="relative px-4 py-20 lg:py-32 scroll-mt-20">
-        <div className="mx-auto max-w-7xl">
-          <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--token-text-primary)]">
-              Features
-            </h2>
-            <p className="text-lg text-[var(--token-text-secondary)] max-w-2xl mx-auto">
-              Everything you need to supercharge your productivity.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[1, 2, 3, 4].map((item) => (
-              <div
-                key={item}
-                className="p-8 rounded-2xl bg-[var(--token-surface)] border border-[var(--token-border)] hover:border-[var(--token-primary)] transition-all"
-              >
-                <h3 className="text-xl font-semibold text-[var(--token-text-primary)] mb-2">
-                  Feature {item}
-                </h3>
-                <p className="text-[var(--token-text-secondary)]">
-                  Feature description goes here.
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="pricing" className="relative px-4 py-20 lg:py-32 scroll-mt-20">
-        <div className="mx-auto max-w-7xl">
-          <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--token-text-primary)]">
-              Pricing
-            </h2>
-            <p className="text-lg text-[var(--token-text-secondary)] max-w-2xl mx-auto">
-              Simple, transparent pricing that grows with you.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {['Starter', 'Professional', 'Enterprise'].map((plan) => (
-              <div
-                key={plan}
-                className="p-8 rounded-2xl bg-[var(--token-surface)] border border-[var(--token-border)] hover:border-[var(--token-primary)] transition-all shadow-[var(--token-shadow-md)]"
-              >
-                <h3 className="text-2xl font-bold text-[var(--token-text-primary)] mb-4">
-                  {plan}
-                </h3>
-                <div className="mb-6">
-                  <span className="text-4xl font-bold text-[var(--token-text-primary)]">$99</span>
-                  <span className="text-[var(--token-text-secondary)]">/month</span>
-                </div>
-                <button className="w-full px-6 py-3 text-sm font-medium text-white bg-[var(--token-primary)] hover:bg-[var(--token-primary-hover)] rounded-full transition-all">
-                  Get started
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="faq" className="relative px-4 py-20 lg:py-32 scroll-mt-20">
-        <div className="mx-auto max-w-4xl">
-          <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--token-text-primary)]">
-              FAQ
-            </h2>
-            <p className="text-lg text-[var(--token-text-secondary)]">
-              Frequently asked questions
-            </p>
-          </div>
-          <div className="space-y-6">
-            {[1, 2, 3, 4].map((item) => (
-              <div
-                key={item}
-                className="p-6 rounded-xl bg-[var(--token-surface)] border border-[var(--token-border)]"
-              >
-                <h3 className="text-lg font-semibold text-[var(--token-text-primary)] mb-2">
-                  Question {item}?
-                </h3>
-                <p className="text-[var(--token-text-secondary)]">
-                  Answer to question {item} goes here.
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="relative px-4 py-20 lg:py-32">
-        <div className="mx-auto max-w-3xl">
-          <div className="text-center space-y-6 mb-12">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--token-text-primary)]">
-              Join Our Waitlist
-            </h2>
-            <p className="text-lg text-[var(--token-text-secondary)]">
-              Be the first to know when we launch and get exclusive early access.
-            </p>
-          </div>
-          <div className="bg-[var(--token-surface)] border border-[var(--token-border)] rounded-2xl p-6 sm:p-8 shadow-[var(--token-shadow-lg)]">
-            <JoinWaitlistForm />
-          </div>
-        </div>
-      </section>
-
-      <BookDemoForm
-        isOpen={isDemoModalOpen}
-        onClose={() => setIsDemoModalOpen(false)}
+      <HeroSection data={contentData.heroSection} />
+      <FeaturesSection
+        tabs={contentData.featureTabs}
+        title="Powerful Features"
+        description="Everything you need to transform your workflow and collaborate better"
       />
+      <ComparisonSection
+        data={contentData.comparisonData}
+        title="Why Choose Dealism"
+        description="See how Dealism stacks up against the competition"
+      />
+      <InsightsSection
+        data={contentData.insightCards}
+        title="The Dealism Difference"
+        description="Measurable benefits for your team"
+      />
+      <TestimonialsSection
+        data={contentData.testimonials}
+        title="Loved by Teams"
+        description="See what our customers say about Dealism"
+      />
+      <PricingSection
+        data={contentData.pricingPlans}
+        title="Simple, Transparent Pricing"
+        description="Choose the perfect plan for your team"
+      />
+      <FAQSection
+        data={contentData.faqItems}
+        title="Frequently Asked Questions"
+        description="Find answers to common questions about Dealism"
+      />
+      <BottomCTASection data={contentData.bottomCTA} />
     </>
   );
 }

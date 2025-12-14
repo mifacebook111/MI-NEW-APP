@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "Dealism - Transform Your Workflow",
+    "titleTemplate": "%s | Dealism",
+    "description": "Transforming the way teams collaborate and achieve their goals. Building the future of work, one feature at a time.",
+    "keywords": "workflow, collaboration, productivity, team management",
+    "siteName": "Dealism",
+    "ogTitle": "Dealism - Transform Your Workflow",
+    "ogDescription": "Transforming the way teams collaborate and achieve their goals."
+  },
+  "nav": {
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Login",
+    "register": "Get beta access",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "changeLanguage": "Change language"
+  },
+  "hero": {
+    "title": "Transform Your Workflow",
+    "description": "Dealism helps teams collaborate seamlessly and achieve their goals with powerful, intuitive tools designed for the modern workplace.",
+    "ctaPrimary": "Get beta access",
+    "ctaSecondary": "Learn more"
+  },
+  "product": {
+    "title": "Product",
+    "description": "Discover the tools that will revolutionize how your team works together.",
+    "feature1Title": "Product Feature 1",
+    "feature1Description": "Description of product feature 1 goes here.",
+    "feature2Title": "Product Feature 2",
+    "feature2Description": "Description of product feature 2 goes here.",
+    "feature3Title": "Product Feature 3",
+    "feature3Description": "Description of product feature 3 goes here."
+  },
+  "features": {
+    "title": "Features",
+    "description": "Everything you need to supercharge your productivity.",
+    "feature1Title": "Feature 1",
+    "feature1Description": "Feature description goes here.",
+    "feature2Title": "Feature 2",
+    "feature2Description": "Feature description goes here.",
+    "feature3Title": "Feature 3",
+    "feature3Description": "Feature description goes here.",
+    "feature4Title": "Feature 4",
+    "feature4Description": "Feature description goes here."
+  },
+  "pricing": {
+    "title": "Pricing",
+    "description": "Simple, transparent pricing that grows with you.",
+    "starter": "Starter",
+    "professional": "Professional",
+    "enterprise": "Enterprise",
+    "price": "$99",
+    "period": "/month",
+    "getStarted": "Get started"
+  },
+  "faq": {
+    "title": "FAQ",
+    "description": "Frequently asked questions",
+    "question1": "Question 1?",
+    "answer1": "Answer to question 1 goes here.",
+    "question2": "Question 2?",
+    "answer2": "Answer to question 2 goes here.",
+    "question3": "Question 3?",
+    "answer3": "Answer to question 3 goes here.",
+    "question4": "Question 4?",
+    "answer4": "Answer to question 4 goes here."
+  },
+  "footer": {
+    "description": "Transforming the way teams collaborate and achieve their goals. Building the future of work, one feature at a time.",
+    "productTitle": "Product",
+    "companyTitle": "Company",
+    "legalTitle": "Legal",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} Dealism. All rights reserved.",
+    "visitSocial": "Visit our {name}"
+  },
+  "login": {
+    "title": "Login",
+    "description": "Login to your account",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "register": {
+    "title": "Register",
+    "description": "Create your account",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Create account",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about Dealism and our mission"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest news and updates from Dealism"
+  },
+  "careers": {
+    "title": "Careers",
+    "description": "Join our team and help shape the future of work"
+  },
+  "policy": {
+    "title": "Privacy Policy",
+    "description": "How we handle your data"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms and conditions for using Dealism"
+  }
+}

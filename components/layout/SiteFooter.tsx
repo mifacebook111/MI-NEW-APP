@@ -1,7 +1,12 @@
-import Link from 'next/link';
+'use client';
+
+import { Link } from '@/i18n/routing';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export function SiteFooter() {
+  const t = useTranslations('footer');
+  const tNav = useTranslations('nav');
   const socialLinks = [
     { name: 'LinkedIn', icon: '/dealism/social/linkedin.svg', href: 'https://linkedin.com' },
     { name: 'Facebook', icon: '/dealism/social/facebook.svg', href: 'https://facebook.com' },
@@ -24,8 +29,7 @@ export function SiteFooter() {
               Dealism
             </Link>
             <p className="text-base lg:text-lg text-[var(--token-text-secondary)] max-w-md leading-relaxed">
-              Transforming the way teams collaborate and achieve their goals. 
-              Building the future of work, one feature at a time.
+              {t('description')}
             </p>
             <div className="flex items-center gap-4 pt-4">
               {socialLinks.map((social) => (
@@ -35,7 +39,7 @@ export function SiteFooter() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-10 h-10 rounded-full bg-[var(--token-bg-secondary)] hover:bg-[var(--token-bg-tertiary)] text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-all hover:scale-110"
-                  aria-label={`Visit our ${social.name}`}
+                  aria-label={t('visitSocial', { name: social.name })}
                 >
                   <Image
                     src={social.icon}
@@ -52,39 +56,39 @@ export function SiteFooter() {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 lg:gap-12">
             <div>
               <h3 className="text-sm font-semibold text-[var(--token-text-primary)] mb-4 uppercase tracking-wide">
-                Product
+                {t('productTitle')}
               </h3>
               <ul className="space-y-3">
                 <li>
-                  <Link
+                  <a
                     href="#features"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    Features
-                  </Link>
+                    {tNav('features')}
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="#pricing"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    Pricing
-                  </Link>
+                    {tNav('pricing')}
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="#faq"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    FAQ
-                  </Link>
+                    {tNav('faq')}
+                  </a>
                 </li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-sm font-semibold text-[var(--token-text-primary)] mb-4 uppercase tracking-wide">
-                Company
+                {t('companyTitle')}
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -92,7 +96,7 @@ export function SiteFooter() {
                     href="/about"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    About
+                    {t('about')}
                   </Link>
                 </li>
                 <li>
@@ -100,7 +104,7 @@ export function SiteFooter() {
                     href="/blog"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    Blog
+                    {t('blog')}
                   </Link>
                 </li>
                 <li>
@@ -108,7 +112,7 @@ export function SiteFooter() {
                     href="/careers"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    Careers
+                    {t('careers')}
                   </Link>
                 </li>
               </ul>
@@ -116,7 +120,7 @@ export function SiteFooter() {
 
             <div>
               <h3 className="text-sm font-semibold text-[var(--token-text-primary)] mb-4 uppercase tracking-wide">
-                Legal
+                {t('legalTitle')}
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -124,7 +128,7 @@ export function SiteFooter() {
                     href="/policy"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    Privacy Policy
+                    {t('privacyPolicy')}
                   </Link>
                 </li>
                 <li>
@@ -132,7 +136,7 @@ export function SiteFooter() {
                     href="/terms"
                     className="text-sm text-[var(--token-text-secondary)] hover:text-[var(--token-text-primary)] transition-colors"
                   >
-                    Terms of Service
+                    {t('termsOfService')}
                   </Link>
                 </li>
               </ul>
@@ -143,20 +147,20 @@ export function SiteFooter() {
         <div className="mt-12 pt-8 border-t border-[var(--token-border)]">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-[var(--token-text-tertiary)]">
-              © {currentYear} Dealism. All rights reserved.
+              {t('copyright', { year: currentYear })}
             </p>
             <div className="flex items-center gap-6">
               <Link
                 href="/policy"
                 className="text-sm text-[var(--token-text-tertiary)] hover:text-[var(--token-text-primary)] transition-colors"
               >
-                Privacy
+                {t('privacy')}
               </Link>
               <Link
                 href="/terms"
                 className="text-sm text-[var(--token-text-tertiary)] hover:text-[var(--token-text-primary)] transition-colors"
               >
-                Terms
+                {t('terms')}
               </Link>
             </div>
           </div>

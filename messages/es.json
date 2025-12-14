@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "Dealism - Transforma tu Flujo de Trabajo",
+    "titleTemplate": "%s | Dealism",
+    "description": "Transformando la forma en que los equipos colaboran y logran sus objetivos. Construyendo el futuro del trabajo, una característica a la vez.",
+    "keywords": "flujo de trabajo, colaboración, productividad, gestión de equipos",
+    "siteName": "Dealism",
+    "ogTitle": "Dealism - Transforma tu Flujo de Trabajo",
+    "ogDescription": "Transformando la forma en que los equipos colaboran y logran sus objetivos."
+  },
+  "nav": {
+    "product": "Producto",
+    "features": "Características",
+    "pricing": "Precios",
+    "faq": "Preguntas Frecuentes",
+    "login": "Iniciar Sesión",
+    "register": "Obtener acceso beta",
+    "menu": "Menú",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "changeLanguage": "Cambiar idioma"
+  },
+  "hero": {
+    "title": "Transforma tu Flujo de Trabajo",
+    "description": "Dealism ayuda a los equipos a colaborar sin problemas y lograr sus objetivos con herramientas potentes e intuitivas diseñadas para el lugar de trabajo moderno.",
+    "ctaPrimary": "Obtener acceso beta",
+    "ctaSecondary": "Saber más"
+  },
+  "product": {
+    "title": "Producto",
+    "description": "Descubre las herramientas que revolucionarán la forma en que tu equipo trabaja en conjunto.",
+    "feature1Title": "Característica del Producto 1",
+    "feature1Description": "La descripción de la característica del producto 1 va aquí.",
+    "feature2Title": "Característica del Producto 2",
+    "feature2Description": "La descripción de la característica del producto 2 va aquí.",
+    "feature3Title": "Característica del Producto 3",
+    "feature3Description": "La descripción de la característica del producto 3 va aquí."
+  },
+  "features": {
+    "title": "Características",
+    "description": "Todo lo que necesitas para potenciar tu productividad.",
+    "feature1Title": "Característica 1",
+    "feature1Description": "La descripción de la característica va aquí.",
+    "feature2Title": "Característica 2",
+    "feature2Description": "La descripción de la característica va aquí.",
+    "feature3Title": "Característica 3",
+    "feature3Description": "La descripción de la característica va aquí.",
+    "feature4Title": "Característica 4",
+    "feature4Description": "La descripción de la característica va aquí."
+  },
+  "pricing": {
+    "title": "Precios",
+    "description": "Precios simples y transparentes que crecen contigo.",
+    "starter": "Inicial",
+    "professional": "Profesional",
+    "enterprise": "Empresarial",
+    "price": "$99",
+    "period": "/mes",
+    "getStarted": "Comenzar"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "description": "Preguntas más frecuentes",
+    "question1": "¿Pregunta 1?",
+    "answer1": "La respuesta a la pregunta 1 va aquí.",
+    "question2": "¿Pregunta 2?",
+    "answer2": "La respuesta a la pregunta 2 va aquí.",
+    "question3": "¿Pregunta 3?",
+    "answer3": "La respuesta a la pregunta 3 va aquí.",
+    "question4": "¿Pregunta 4?",
+    "answer4": "La respuesta a la pregunta 4 va aquí."
+  },
+  "footer": {
+    "description": "Transformando la forma en que los equipos colaboran y logran sus objetivos. Construyendo el futuro del trabajo, una característica a la vez.",
+    "productTitle": "Producto",
+    "companyTitle": "Compañía",
+    "legalTitle": "Legal",
+    "about": "Acerca de",
+    "blog": "Blog",
+    "careers": "Carreras",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "copyright": "© {year} Dealism. Todos los derechos reservados.",
+    "visitSocial": "Visita nuestro {name}"
+  },
+  "login": {
+    "title": "Iniciar Sesión",
+    "description": "Inicia sesión en tu cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "noAccount": "¿No tienes cuenta?",
+    "signUp": "Registrarse"
+  },
+  "register": {
+    "title": "Registrarse",
+    "description": "Crea tu cuenta",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Crear cuenta",
+    "haveAccount": "¿Ya tienes cuenta?",
+    "signIn": "Iniciar sesión"
+  },
+  "about": {
+    "title": "Acerca de Nosotros",
+    "description": "Conoce más sobre Dealism y nuestra misión"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Últimas noticias y actualizaciones de Dealism"
+  },
+  "careers": {
+    "title": "Carreras",
+    "description": "Únete a nuestro equipo y ayuda a dar forma al futuro del trabajo"
+  },
+  "policy": {
+    "title": "Política de Privacidad",
+    "description": "Cómo manejamos tus datos"
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "description": "Términos y condiciones para usar Dealism"
+  }
+}

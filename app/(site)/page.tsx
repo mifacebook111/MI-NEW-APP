@@ -1,4 +1,12 @@
+'use client';
+
+import { useState } from 'react';
+import { BookDemoForm } from '@/components/forms/BookDemoForm';
+import { JoinWaitlistForm } from '@/components/forms/JoinWaitlistForm';
+
 export default function Home() {
+  const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
+
   return (
     <>
       <section className="relative px-4 py-20 lg:py-32">
@@ -11,12 +19,12 @@ export default function Home() {
               Dealism helps teams collaborate seamlessly and achieve their goals with powerful, intuitive tools designed for the modern workplace.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <a
-                href="/register"
+              <button
+                onClick={() => setIsDemoModalOpen(true)}
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-[var(--token-primary)] hover:bg-[var(--token-primary-hover)] rounded-full transition-all shadow-lg hover:shadow-xl"
               >
                 Get beta access
-              </a>
+              </button>
               <a
                 href="#product"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-[var(--token-text-primary)] border-2 border-[var(--token-border)] hover:border-[var(--token-text-primary)] rounded-full transition-all"
@@ -146,6 +154,27 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="relative px-4 py-20 lg:py-32">
+        <div className="mx-auto max-w-3xl">
+          <div className="text-center space-y-6 mb-12">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--token-text-primary)]">
+              Join Our Waitlist
+            </h2>
+            <p className="text-lg text-[var(--token-text-secondary)]">
+              Be the first to know when we launch and get exclusive early access.
+            </p>
+          </div>
+          <div className="bg-[var(--token-surface)] border border-[var(--token-border)] rounded-2xl p-6 sm:p-8 shadow-[var(--token-shadow-lg)]">
+            <JoinWaitlistForm />
+          </div>
+        </div>
+      </section>
+
+      <BookDemoForm
+        isOpen={isDemoModalOpen}
+        onClose={() => setIsDemoModalOpen(false)}
+      />
     </>
   );
 }

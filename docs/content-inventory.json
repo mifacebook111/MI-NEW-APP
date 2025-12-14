@@ -1,0 +1,189 @@
+{
+  "site": "dealism.ai",
+  "languages": ["en", "es", "pt"],
+  "fonts": [
+    {
+      "family": "Inter",
+      "weights": [300, 400, 500, 600, 700, 900],
+      "style": "sans-serif",
+      "src": "https://framerusercontent.com/assets/..."
+    },
+    {
+      "family": "Inter Display",
+      "weights": [400, 500, 600, 700, 800, 900],
+      "style": "sans-serif",
+      "src": "https://framerusercontent.com/assets/..."
+    },
+    {
+      "family": "Hedvig Letters Serif",
+      "weights": [400],
+      "style": "serif",
+      "src": "https://fonts.gstatic.com/s/hedviglettersserif/v4/OD5puN2I2mekHmyoU1Kj2AXOd5_7v7gIDlX8quj7viQ_N1HixEAZerfcvSGpZg.woff2"
+    },
+    {
+      "family": "Fragment Mono",
+      "weights": [400],
+      "style": "monospace",
+      "src": "https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2"
+    }
+  ],
+  "sections": {
+    "header": {
+      "logo": "https://framerusercontent.com/images/7fUoDvwdIyew249Soixcb4pxs.png",
+      "links": [
+        { "text": "Home", "url": "/" },
+        { "text": "Pricing", "url": "/price" }
+      ],
+      "cta": { "text": "Get started", "url": "https://dealism.ai/login" }
+    },
+    "hero": {
+      "title": "World’s First Vibe Selling Agent",
+      "subtitle": "Conversational AI Sales Agent, representing You 24/7. Dealism is designed to simplify the complexity of human conversation while keeping persuasion deeply personal and natural.",
+      "cta": { "text": "Start 3-Day Free Trial", "url": "https://dealism.ai/register" },
+      "social_icons": [
+        { "name": "Instagram", "src": "https://framerusercontent.com/images/Hhb7BSJ8hsZh9vMfhgeIajM.png" },
+        { "name": "WhatsApp", "src": "https://framerusercontent.com/images/jsNUiUMJ3VdpmZkYomjPt1uteo4.png" }
+      ],
+      "background_image": "https://framerusercontent.com/images/9atBfnDLJP0XjScT7gXB9lzptS8.png",
+      "video_embed": "https://www.youtube.com/embed/SddvAhcD3NI"
+    },
+    "features": {
+      "title": "How Dealism Works?",
+      "items": [
+        {
+          "title": "Pretty Human-Like",
+          "description": "Instead of a generic chatbot, you'll have a sales rep that speaks in your tone and reflects your personality...",
+          "image": "https://framerusercontent.com/images/nDNW1NRQwjYtBCNt0JZwxijzW9E.gif",
+          "background": "https://framerusercontent.com/images/MPhMwPnz5WjKguiVguPRSYxdwY.png"
+        },
+        {
+          "title": "Continuous Self-Learning",
+          "description": "Continuously self‑learns from real interactions to refine tone, strategy, and outcomes.",
+          "image": "https://framerusercontent.com/images/GZn4H03ZeZtmGUYpNNl4MrMZ5pE.gif",
+          "background": "https://framerusercontent.com/images/hcqBD3Cmj5TBQtKKuU8qccf9r7Y.png"
+        },
+        {
+          "title": "All-in-one Inbox",
+          "description": "WhatsApp live, Supports 1:1; Instagram DMs; Mobile app for on‑the‑go replies coming soon",
+          "image": "https://framerusercontent.com/images/EzK0gJp1KtGMygkSttLOVbEAlw.gif",
+          "background": "https://framerusercontent.com/images/MPhMwPnz5WjKguiVguPRSYxdwY.png"
+        },
+        {
+          "title": "Auto Reply & Copliot Response",
+          "description": "Autopilot for new contacts (beta); Timely nudges to follow up, 24/7 availability; AI suggestions can be edited on the spot",
+          "image": "https://framerusercontent.com/images/Knc6RssWqzqChscNZM7A1nuZA.gif",
+          "background": "https://framerusercontent.com/images/hcqBD3Cmj5TBQtKKuU8qccf9r7Y.png"
+        },
+        {
+          "title": "Fast Setup, No Technical Skills Needed",
+          "description": "Start in minutes without coding. Upload your materials, connect WhatsApp, and your AI sales rep is ready — managing chats the same day.",
+          "image": "https://framerusercontent.com/images/RXm8ufzaFjtNdpOBFOcYTTs8nMM.gif",
+          "background": "https://framerusercontent.com/images/Ovn1boNq6vEG01Y2Tqwq7zj3qA.png"
+        }
+      ]
+    },
+    "insights": {
+      "title": "More than a chatbot!",
+      "subtitle": "Psychology-Driven Conversations",
+      "cards": [
+        {
+          "text": "Robotic or template-driven replies that feel generic Handles only simple FAQs or linear conversations.",
+          "before_image": "https://framerusercontent.com/images/Fq2qCZhSzpplDK5coYFxb0iWeQ.png",
+          "after_image": "https://framerusercontent.com/images/vj5eEK9oyVNEizLDgC7kaDERsnc.png"
+        },
+        {
+          "text": "Human‑sounding, high‑EQ dialogue that mirrors your voice. Elite sales playbooks built‑in.",
+          "after_image": "https://framerusercontent.com/images/P2mj8BatczbFGO7SUeLJC8LNzfQ.gif"
+        },
+        {
+          "text": "No goal setting, mostly Q&A or navigation redirection, with limited form collection.",
+          "before_image": "https://framerusercontent.com/images/Fq2qCZhSzpplDK5coYFxb0iWeQ.png",
+          "after_image": "https://framerusercontent.com/images/NPuMtQ15dsWlt2fwpB5ckn3bYNA.gif"
+        },
+        {
+          "text": "Personalized Goals and Smart Profiling (Title) - Whether you’re focused on increasing sales, building loyalty, or nurturing leads, it tailors its responses and strategies to meet your goals.",
+          "after_video": "https://framerusercontent.com/assets/GGunMcvxefWwCzioN2n8MGPIx58.mp4"
+        },
+        {
+          "text": "Static knowledge bases or limited CRM learning No real learning; improvements require manual updates",
+          "before_image": "https://framerusercontent.com/images/Fq2qCZhSzpplDK5coYFxb0iWeQ.png",
+          "after_image": "https://framerusercontent.com/images/MKD2VPMmcftDg5y8xqaUG7Jy84k.png"
+        },
+        {
+          "text": "Continuously self‑learns from real interactions to refine tone, strategy, and outcomes.",
+          "after_image": "https://framerusercontent.com/images/vFl9YS2EwLkXBVJJEPaLCOkJGQs.png"
+        }
+      ]
+    },
+    "reviews": {
+      "title": "What Our Client Said About Us",
+      "items": [
+        {
+          "name": "Mark",
+          "role": "E-commerce Store Owner",
+          "quote": "“I got Dealism for customer support, but was shocked to see it driving sales by converting hesitant buyers with expert product answers.This tool literally pays for itself.”",
+          "image": "https://framerusercontent.com/images/QNHS4M3Dk8Qwkh5WdYfxSdJfyLg.png"
+        },
+        {
+          "name": "Devin",
+          "role": "Content Creator",
+          "quote": "“ It's not just a bot - Dealism automates 99% of my DMs in my exact voice and make real conversations. I'm finally free to focus on creating content instead of just answering messages.”",
+          "image": "https://framerusercontent.com/images/ybQaKUR8ddHTZkdkquyoYH1qPA.png"
+        },
+        {
+          "name": "Sarah",
+          "role": "Cosmetics Sales Representative",
+          "quote": "“Dealism follows my exact rules so perfectly, my customers genuinely think it's me. This saves me 3 hours daily-priceless time I now have for my family.”",
+          "image": "https://framerusercontent.com/images/s3fxK7Rl7b0HB8yTpr4EAb02LV0.png"
+        },
+        {
+          "name": "Saray",
+          "role": "Marketing Agency CEO",
+          "quote": "\"Dealism has become an essential part of our agency. It doesn’t just handle simple tasks — it truly understands our spirit, our tone, and the way we connect with clients...\"",
+          "image": "https://framerusercontent.com/images/2q5FxYmEOxaOYA1FbskuOeCU44.png"
+        }
+      ]
+    },
+    "pricing_teaser": {
+      "title": "Enterprise-Grade Security",
+      "subtitle": "Scale your sales with an Al expert who engages leads and closes deals effectively.",
+      "images": [
+        "https://framerusercontent.com/images/Q5INLAWuP9V1WFaaRwqrv6lIg.png",
+        "https://framerusercontent.com/images/kyBaiFayZp948AcS146yiQFZLQ.png",
+        "https://framerusercontent.com/images/Af8a1ccyw6J6sRieTmmVEVwHINQ.png",
+        "https://framerusercontent.com/images/WalqMErgSpiiR9KipErdk0aipGo.png",
+        "https://framerusercontent.com/images/qD9LTpGqtgP3vyYIcMyvapo7DF4.png"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        { "q": "How can I connect my WhatsApp to Dealism?", "a": "On desktop, during the initial onboarding..." },
+        { "q": "How can I create an agent?", "a": "..." },
+        { "q": "How do I choose a plan?", "a": "..." },
+        { "q": "How is the 2,000 Conversations quota calculated, and can I purchase more?", "a": "..." },
+        { "q": "Does the 3-day free trial include all features?", "a": "..." },
+        { "q": "What value does Dealism provide? Who is it for?", "a": "..." }
+      ]
+    },
+    "cta": {
+      "title": "Turn Conversations Into Revenue",
+      "subtitle": "Scale your sales with an Al expert who engages leads and closes deals effectively.",
+      "button": "Start 3-Day Free Trial",
+      "background_image": "https://framerusercontent.com/images/rOWNC4FEUHr4qDfMV9b15tyL0I.png"
+    },
+    "footer": {
+      "company": ["Feature", "Sales AI Agent", "Sales Strategy", "Self-learning", "Auto Reply Agent", "No Code Agent Builder", "WhatsApp AI Assistant", "Automate Instagram Messager"],
+      "information": ["Insights", "Blog", "Review", "Pricing", "Affiliate"],
+      "legal": ["Privacy Policy", "Terms of Service"],
+      "socials": [
+        { "name": "YouTube", "icon": "https://framerusercontent.com/images/qaFt4IvyPevma4yfP2cPok5sB9Q.png" },
+        { "name": "LinkedIn", "icon": "https://framerusercontent.com/images/lv8zOZyzEuHlHXNlS2K3nJ6Eg.svg" },
+        { "name": "Facebook", "icon": "https://framerusercontent.com/images/wZ2w9Ey1XXfnVXghqPOHEP6oZcI.png" },
+        { "name": "X", "icon": "https://framerusercontent.com/images/mEFnTToNJlXMiv5Wj9D1dST8bA.png" },
+        { "name": "Instagram", "icon": "https://framerusercontent.com/images/jbcbLS602E2mfIGq6rsCAAogsM.png" }
+      ],
+      "copyright": "© 2025 DEALISM PTE. LTD. All rights reserved"
+    }
+  }
+}
